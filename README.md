@@ -16,12 +16,17 @@ The details page for the animals I did not do much styling on as most of my styl
 
 
 <!-- Seeding the Database with dummy data -->
-As for the information on the site, if you do not see any pets then please use the endpoint /seed in order to seed the database as I may have not seeded it or deleted the current database.
+As for the information on the site, if you do not see any pets then please use the endpoint /pets/seed in order to seed the database as I may have not seeded it or deleted the current database.
 
 
 The route for the seeding the database will delete everything in the database and reseed it, so If by chance you see a broken image please do reseed as it is hopefully an error in previous seed.
 
+<!-- seeding locally -->
 This page is not for displaying anything, only to seed. Once you seed, click the logo to see all pets.
+The endpoint on local is /seed. ```There is no need to do /pets/seed (Do not do this locally)```
+
+<!-- seeding deployed -->
+The endpoint mentioned above ``` /pets/seed ``` will return a json format response. So It will either show the info that was seeded or it will show you an error when seeding.
 
 
 <!-- filters -->
