@@ -63,7 +63,7 @@ mongoose
       sex: 'Female',
       refId: '39G02C',
       birthDate: '09/01/2016',
-      iamge: 'https://imagevars.gulfnews.com/2018/8/3/1_16a08500d3c.2261003_127640103_16a08500d3c_large.jpg'
+      image: 'https://imagevars.gulfnews.com/2018/8/3/1_16a08500d3c.2261003_127640103_16a08500d3c_large.jpg'
     },
     {
       name: 'Felix',
@@ -94,7 +94,57 @@ mongoose
       refId: '47H39G',
       birthDate: '07/15/2016',
       image: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Alaskan_Malamute.jpg'
-    }
+    },
+    {
+      name: 'Kylie',
+      breed: 'Alaskan Malamute',
+      location: 'Jupiter',
+      type: 'Dog',
+      sex: 'Female',
+      refId: '43H12G',
+      birthDate: '03/27/2019',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Puppy_Alaskan_Malamute.jpg/220px-Puppy_Alaskan_Malamute.jpg'
+    },
+    {
+      name: 'Missy',
+      breed: 'Scottich Fold',
+      location: 'Hollywood',
+      type: 'Cat',
+      sex: 'Female',
+      refId: '40G92C',
+      birthDate: '05/21/2019',
+      image: 'https://www.thesprucepets.com/thmb/0Y_9qW07-uYqkW9_kcasnwXqCi0=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/twenty20_d4afe7d2-ebe8-4288-a2ef-bcecbb99df88-5a8c4309c064710037e9965e.jpg'
+    },
+    {
+      name: 'King',
+      breed: 'Persian',
+      location: 'Kendall',
+      type: 'Cat',
+      sex: 'Male',
+      refId: '23G02C',
+      birthDate: '06/11/2016',
+      image: 'https://www.pets4homes.co.uk/images/articles/4396/large/five-personality-traits-of-the-persian-cat-59cbc0cd0f41c.jpg'
+    },
+    {
+      name: 'Shiva',
+      breed: 'American Bulldog',
+      location: 'Miami',
+      type: 'Dog',
+      sex: 'Male',
+      refId: '13H70G',
+      birthDate: '12/11/2017',
+      image: 'https://a-z-animals.com/media/animals/images/original/american_bulldog.jpg'
+    },
+    {
+      name: 'Sam',
+      breed: 'Mini Australian Shepherd',
+      location: 'Miami',
+      type: 'Dog',
+      sex: 'Male',
+      refId: '93H46G',
+      birthDate: '01/26/2016',
+      image: 'https://media.nextechclassifieds.com/img/listings/jh/jholzmeister/listing_pic_1628008_1550007582.jpeg'
+    },
   ];
 
 
@@ -121,4 +171,6 @@ let addPets = async () => {
 };
 
 
-addPets();
+// addPets();
+
+module.exports = petsArray;
