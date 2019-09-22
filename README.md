@@ -1,7 +1,7 @@
 <!-- Notes to those that are reading -->
 
 <!-- Link to Live Site -->
-[live site](https://ccg-pets.herokuapp.com/)
+[Click here to go to Live Site](https://ccg-pets.herokuapp.com/)
 
 <!-- about getting an api -->
 Simple pets server api.
